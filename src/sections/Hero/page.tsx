@@ -110,7 +110,7 @@ export function Hero() {
 
         {/* Subtitle */}
         <p className="hero-sub" style={{ color: 'rgba(255,255,255,0.6)', fontSize: 17, maxWidth: 440, marginBottom: 36, lineHeight: 1.65 }}>
-          Taxas reduzidas, Pix grátis e limite de crédito conforme seu volume.{" "}
+          Pix ilimitado, taxas justas e liberdade garantida.{" "}
           <span style={{ color: 'rgba(255,255,255,0.88)', fontWeight: 600 }}>Sem aluguel nem mensalidade.</span>
         </p>
 
