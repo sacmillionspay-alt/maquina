@@ -4,8 +4,6 @@ import {
   IconChart,
   IconCheck,
   IconZap,
-  IconBuilding,
-  IconLink,
   IconPhone,
   IconShield,
 } from '../components/Icons'
@@ -23,12 +21,10 @@ export const BANDEIRAS_LINHA2 = [
 ]
 
 export const BENEFICIOS = [
-  { titulo: 'Pix grátis e ilimitado', desc: 'Receba e pague com Pix sem custo.', Icon: IconPix },
+  { titulo: 'Pix ilimitado', desc: 'Receba e pague com Pix sem limite.', Icon: IconPix },
   { titulo: 'Taxas que caem', desc: 'Quanto mais você vende, menores as taxas.', Icon: IconChart },
   { titulo: 'Sem aluguel ou multa', desc: 'Maquininha sua, sem pegadinhas.', Icon: IconCheck },
   { titulo: 'Antecipação rápida', desc: 'Receba na hora ou em 1 dia útil.', Icon: IconZap },
-  { titulo: 'Conta PJ inclusa', desc: 'Gerencie vendas e saldo em um lugar.', Icon: IconBuilding },
-  { titulo: 'Link de pagamento', desc: 'Venda online com link por WhatsApp.', Icon: IconLink },
   { titulo: 'Atendimento humano', desc: 'Suporte por telefone e WhatsApp.', Icon: IconPhone },
   { titulo: 'Segurança', desc: 'Transações protegidas e garantia.', Icon: IconShield },
 ] as { titulo: string; desc: string; Icon: ComponentType }[]

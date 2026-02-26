@@ -49,8 +49,8 @@ export function CTA() {
           </div>
           <div className="cta-stat-div" />
           <div className="cta-stat">
-            <span className="stat-value">0,75%</span>
-            <span className="stat-label">taxa no débito</span>
+            <span className="stat-value">24h</span>
+            <span className="stat-label">suporte</span>
           </div>
           <div className="cta-stat-div" />
           <div className="cta-stat">

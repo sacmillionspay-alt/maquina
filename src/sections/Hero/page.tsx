@@ -1,5 +1,4 @@
 import { IconCheckCircle } from '../../components/Icons'
-import { TAXAS_HERO } from '../../constants'
 
 export function Hero() {
   return (
@@ -71,10 +70,6 @@ export function Hero() {
         .btn-secondary:active { transform: translateY(0); }
 
         .glow-orb { animation: heroPulse 6s ease-in-out infinite; }
-
-        @media (max-width: 900px) {
-          .hero-rates-grid { grid-template-columns: repeat(2, 1fr) !important; }
-        }
       `}</style>
 
       {/* ── Background ── */}
@@ -119,16 +114,6 @@ export function Hero() {
           <span style={{ color: 'rgba(255,255,255,0.88)', fontWeight: 600 }}>Sem aluguel nem mensalidade.</span>
         </p>
 
-        {/* Rate cards */}
-        <div className="hero-rates hero-rates-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 8, maxWidth: 500, marginBottom: 40 }}>
-          {TAXAS_HERO.map((item, i) => (
-            <div key={item.value} className="rate-card" style={{ borderRadius: 14, padding: '14px 8px', textAlign: 'center', animationDelay: `${0.4 + i * 0.08}s` }}>
-              <div style={{ fontSize: 21, fontWeight: 900, color: '#07D141', letterSpacing: '-0.02em', lineHeight: 1 }}>{item.value}</div>
-              <div style={{ fontSize: 10, color: 'rgba(255,255,255,0.5)', marginTop: 5, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.06em', lineHeight: 1.3 }}>{item.sub}</div>
-            </div>
-          ))}
-        </div>
-
         {/* CTAs */}
         <div className="hero-cta" style={{ display: 'flex', alignItems: 'center', gap: 12, flexWrap: 'wrap' }}>
           <a href="#pedir" className="btn-primary">
@@ -149,7 +134,7 @@ export function Hero() {
       {/* ── Bottom bar ── */}
       <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, borderTop: '1px solid rgba(255,255,255,0.07)', background: 'rgba(0,0,0,0.55)', backdropFilter: 'blur(16px)', padding: '13px 24px' }}>
         <div style={{ maxWidth: 1152, margin: '0 auto', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '8px 28px' }}>
-          {['PIX GRÁTIS', 'CONTA PJ', 'SEM ALUGUEL', 'LINK DE PAGAMENTO', 'ATENDIMENTO'].map(item => (
+          {['PIX ILIMITADO', 'SEM ALUGUEL', 'ANTECIPE SEM BUROCRACIA', 'ATENDIMENTO'].map(item => (
             <span key={item} style={{ display: 'flex', alignItems: 'center', gap: 6, fontSize: 11, fontWeight: 700, color: 'rgba(255,255,255,0.5)', letterSpacing: '0.08em' }}>
               <IconCheckCircle className="w-3.5 h-3.5" style={{ color: '#07D141', flexShrink: 0 }} />
               {item}

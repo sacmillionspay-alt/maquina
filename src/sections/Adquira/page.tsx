@@ -25,8 +25,8 @@ const modelos = [
   },
   {
     id: 'a910',
-    nome: 'A910',
-    nomeCompleto: 'Millionspay A910',
+    nome: 'S920',
+    nomeCompleto: 'Millionspay S920',
     tag: 'MAIS VENDIDA',
     tagStyle: { background: '#0d3320', color: '#07D141' },
     desc: 'Robusta e versátil. Perfeita para médio e alto volume com total confiabilidade.',
@@ -312,15 +312,9 @@ export function Adquira() {
                   {/* Content */}
                   <div style={{ padding: '20px 22px 24px', display: 'flex', flexDirection: 'column', flex: 1 }}>
 
-                    {/* Name + price */}
-                    <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: 10 }}>
-                      <div>
-                        <h3 style={{ margin: 0, fontSize: 18, fontWeight: 900, color: '#0d3320', letterSpacing: '-0.02em' }}>{m.nomeCompleto}</h3>
-                      </div>
-                      <div style={{ textAlign: 'right', flexShrink: 0, marginLeft: 8 }}>
-                        <div style={{ fontSize: 15, fontWeight: 900, color: '#07D141', letterSpacing: '-0.02em', lineHeight: 1 }}>{m.preco}</div>
-                        <div style={{ fontSize: 10, color: '#9ca3af', fontWeight: 600, marginTop: 2 }}>{m.precoObs}</div>
-                      </div>
+                    {/* Name */}
+                    <div style={{ marginBottom: 10 }}>
+                      <h3 style={{ margin: 0, fontSize: 18, fontWeight: 900, color: '#0d3320', letterSpacing: '-0.02em' }}>{m.nomeCompleto}</h3>
                     </div>
 
                     <p style={{ margin: '0 0 16px', fontSize: 13, color: '#6b7280', lineHeight: 1.6, flex: 1 }}>{m.desc}</p>
@@ -352,7 +346,6 @@ export function Adquira() {
           {/* decorative circles */}
           <div style={{ position: 'absolute', top: -60, right: -60, width: 240, height: 240, borderRadius: '50%', background: 'rgba(7,209,65,0.08)', pointerEvents: 'none' }} />
           <div style={{ position: 'absolute', bottom: -40, right: 180, width: 140, height: 140, borderRadius: '50%', background: 'rgba(7,209,65,0.06)', pointerEvents: 'none' }} />
-          <div style={{ position: 'absolute', top: '50%', left: 320, transform: 'translateY(-50%)', width: 1, height: '60%', background: 'rgba(7,209,65,0.15)', pointerEvents: 'none' }} />
 
           <div style={{ position: 'relative' }}>
             <p style={{ margin: '0 0 5px', fontSize: 11, fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.14em', color: '#07D141' }}>Sem burocracia</p>

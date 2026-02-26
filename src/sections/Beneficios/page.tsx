@@ -78,7 +78,7 @@ export function Beneficios() {
         </div>
 
         {/* Cards grid */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 16 }}
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 16 }}
           className="ben-grid">
           <style>{`
             @media (max-width: 900px) { .ben-grid { grid-template-columns: repeat(2,1fr) !important; } }
