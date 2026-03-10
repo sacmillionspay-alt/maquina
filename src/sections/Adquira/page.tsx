@@ -10,7 +10,7 @@ const volumes = [
 
 const modelos = [
   {
-    id: 'p2',
+    id: 'l300',
     nome: 'L300',
     nomeCompleto: 'Millionspay L300',
     tag: 'MELHOR ESCOLHA',
