@@ -11,8 +11,8 @@ const volumes = [
 const modelos = [
   {
     id: 'p2',
-    nome: 'P2',
-    nomeCompleto: 'Millionspay P2',
+    nome: 'L300',
+    nomeCompleto: 'Millionspay L300',
     tag: 'MELHOR ESCOLHA',
     tagStyle: { background: '#07D141', color: '#0a2010' },
     desc: 'Top de linha. Design slim, 4G + Wi-Fi, NFC e bateria que dura o dia todo.',
