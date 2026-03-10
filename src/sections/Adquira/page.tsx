@@ -180,7 +180,7 @@ export function Adquira() {
           box-shadow: 0 4px 14px rgba(13,51,32,0.2);
         }
         .adq-cta.dark:hover {
-          background: #07D141; color: #8E918F;
+          background: #07D141; color: #112617;
           box-shadow: 0 8px 28px rgba(7,209,65,0.3);
           transform: translateY(-2px);
         }
