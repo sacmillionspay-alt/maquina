@@ -18,7 +18,7 @@ const modelos = [
     desc: 'Top de linha. Design slim, 4G + Wi-Fi, NFC e bateria que dura o dia todo.',
     preco: '12x R$ 22,90',
     precoObs: 'sem juros',
-    img: '/P2.png',
+    img: '/L300.png',
     features: ['4G + Wi-Fi', 'NFC contactless', 'Bateria 8h', 'Impressora térmica'],
     destaque: true,
     bg: 'linear-gradient(145deg, #f8fafc 0%, #f1f5f9 100%)',
